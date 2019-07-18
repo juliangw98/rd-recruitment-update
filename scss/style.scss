@@ -1,0 +1,177 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/toasts";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/spinners";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
+// eigen
+@import "custom/footer";
+@import "custom/image-text";
+@import "custom/icons";
+@import "custom/about-us";
+@import "custom/navigation";
+@import "custom/home";
+@import "custom/list";
+@import "custom/event";
+@import "custom/contact";
+@import "custom/corporate";
+
+a {
+  color:black;
+}
+
+.white {
+  color: white;
+}
+
+.orange {
+  color: $primary;
+}
+
+.btn {
+  margin-bottom: 10px;
+  padding: 15px 20px;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  border-color: 2px solid white;
+  text-transform: uppercase;
+}
+
+.badge-info {
+  font-weight: normal;
+  color: #FF811A;
+}
+
+.bold-title {
+  font-weight: $font-weight-bold;
+}
+
+.upper-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: $font-weight-light;
+}
+
+.attribute {
+  font-family: $headings-font-family;
+  display: flex;
+  color: #B5B0B0;
+  font-size: 0.875rem;
+
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.lan{
+
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  font-family: $headings-font-family;
+  color:white;
+  background-color: gray;
+  border: none;
+  border-radius: 100%;
+  font-weight: bold;
+  opacity: .6;
+}
+.orangeButton{
+  background-color: $primary;
+  opacity: 1;
+
+}
+
+
+.cor-title {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width: 100px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    div {
+      display: flex;
+      flex-direction: row;
+
+      div {
+        margin-right: 20px;
+      }
+
+      div {}
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .cor-title {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      display: none;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      div {
+        display: flex;
+        flex-direction: row;
+
+        div {
+          margin-right: 50px;
+        }
+
+        div {}
+      }
+    }
+  }
+}

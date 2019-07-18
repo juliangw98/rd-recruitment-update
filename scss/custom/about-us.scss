@@ -1,0 +1,38 @@
+#aboutUsImageQuote {
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+#CarouselList {
+  display: none;
+
+  .visual {
+    background-image: none;
+    overflow: hidden;
+  }
+
+  #PhotoList {
+    display: block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #aboutUsImageQuote {
+    .textVisual {
+      height: auto;
+    }
+  }
+
+  #CarouselList {
+    display: block;
+
+    .visual {
+      background-image: none;
+      overflow: hidden;
+    }
+  }
+
+  #PhotoList {
+    display: none;
+  }
+}

@@ -1,0 +1,64 @@
+#icon-arrow-down {
+  fill: #FFF;
+}
+
+#icon-arrow-left {
+  fill: #242222;
+}
+
+#icon-arrow-right {
+  fill: #242222;
+}
+
+#icon-briefcase {
+  fill: #242222;
+}
+
+#icon-calender {
+  fill: #B5B0B0;
+}
+
+#icon-close {
+  fill: #242222;
+}
+
+#icon-coffee {
+  fill: #242222;
+}
+
+#icon-mail {
+  fill: #242222;
+}
+
+#icon-map-pin {
+  fill: #B5B0B0;
+}
+
+#icon-menu {
+  fill: #FF811A;
+}
+
+#icon-social-linkedin {
+  fill: #FF811A;
+}
+
+#icon-social-vimeo {
+  fill: #242222;
+}
+
+.icon-custom {
+  height: 24px;
+  width: 24px;
+  display: inline;
+}
+
+.attribute {
+  display: flex;
+  flex-direction: row;
+
+  div {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+}

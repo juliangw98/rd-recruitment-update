@@ -1,0 +1,324 @@
+#header {
+  background: url("../images/header.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#content {
+  margin-top: 275px;
+}
+
+nav {
+  z-index: 10;
+}
+
+header {
+  background-image: url("../images/header.jpg");
+  height: 100vh;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.message {
+  position: absolute;
+  margin-left: 20px;
+  bottom: 50px;
+  margin-right: 20px;
+
+  h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: #FFF;
+    opacity: 0.6;
+  }
+
+  h1 {
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 24px;
+    margin-top: 0;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#branches {
+  background-color: $primary;
+  position: inherit;
+  color: white;
+  margin-top: 87vh;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+
+  ul {
+    list-style-type: none;
+    padding-left: inherit;
+
+    li {
+      margin-bottom: 17px;
+
+      svg {
+        margin-right: 25px;
+      }
+
+      a {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+#evenementenBig {
+  display: none;
+  grid-area: evenement;
+}
+
+#evenementenSmall {
+  display: block;
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    .evenement {
+      padding: 15px;
+      border-bottom: 1px solid #F2F2F2;
+      h2{
+        margin-top: 1.2rem;
+        font-size: 1.125rem;
+        margin-bottom:.5rem;
+      }
+      p{
+        font-size: .875rem;
+      }
+      div {
+        display: flex;
+        flex-direction: row;
+
+        div {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+#evenementenBanner {
+  width: 100%;
+  background-image: url("../images/evenementen.jpg");
+  background-size: cover;
+  height: 318px;
+}
+
+#evenementenTitle {
+  position: relative;
+  top: 255px;
+  left: 20px;
+  width: 100px;
+}
+
+#evenementButton {
+  padding: 40px 15px;
+  color: #FF811A;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  #header {
+    background: url("../images/header.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 75vh;
+  }
+
+  .message {
+    position: absolute;
+    margin-left: 100px;
+    bottom: 490px;
+    margin-right: 20px;
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin-bottom: 24px;
+      margin-top: 0;
+      font-size: 6rem;
+    }
+
+    div {
+      display: flex;
+      flex-direction: row;
+
+      a {
+        margin-right: 50px;
+      }
+    }
+  }
+
+  #people {
+    margin-left: auto;
+    margin-right: auto;
+
+    .job {
+      border-top: 1px solid #F2F2F2;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+
+      img {
+        height: 120px;
+        align-self: center;
+      }
+    }
+  }
+
+  #spotlight {
+    margin-left: auto;
+    margin-right: auto;
+
+    .job {
+      border-top: 1px solid #F2F2F2;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        height: 12px;
+        align-self: center;
+      }
+    }
+  }
+
+  #hero {
+    color: #fff;
+    height: 68vh;
+  }
+
+  #branches {
+    margin-top: 0;
+    top: -194px;
+    height: 400px;
+    color: white;
+    padding: 50px 0;
+    position: relative;
+    background-color: transparent;
+
+    .branchesContent {
+      padding-top: 30px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 15px;
+
+      li {
+        margin-bottom: 17px;
+
+        a {
+          font-size: 2.5rem;
+          font-weight: medium;
+        }
+
+        svg {
+          border: none;
+          height: 26px;
+          width: 26px;
+          margin-right: 25px;
+        }
+      }
+    }
+  }
+
+  .bg-custom {
+    background-color: $primary;
+    width: 80vw;
+    height: 100%;
+    position: absolute;
+  }
+
+  #content {
+    padding-top: 390px;
+  }
+
+  #test {
+    background: red;
+  }
+
+  #about-us {
+    margin-top: 100px;
+    overflow: hidden;
+    height: 1000px;
+    position: relative;
+
+    h2 {
+      font-size: 4rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+
+  #evenementenBig {
+    display: block;
+    background-image: url("../images/evenementen.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 144px;
+    height: auto;
+    padding-bottom: 100px;
+    margin-bottom: 200px;
+  }
+
+  #evenementenSmall {
+    display: none;
+  }
+
+  #evenementenTitle {
+    position: relative;
+    padding-top: 140px;
+    top:0px;
+
+  }
+
+  #eventContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 590px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+
+  .evenement {
+    padding: 48px;
+    border-bottom: 1px solid #F2F2F2;
+
+    > div {
+      display: flex;
+
+      div {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  #evenementButton {
+    padding: 40px 48px;
+    color: #FF811A;
+  }
+}

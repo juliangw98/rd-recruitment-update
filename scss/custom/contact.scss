@@ -1,0 +1,28 @@
+.background-container {
+  background-color: #F2F2F2;
+  padding: 48px 72px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: 2rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: none;
+  border-radius: none;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.custom-file-label{
+  position: relative;
+  width: 100%;
+}
+#locatie{
+  margin-top:10vh;
+}

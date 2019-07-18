@@ -1,0 +1,129 @@
+@media only screen and (min-width: 601px) {
+  //lijst jobs
+
+  #spotlight {
+    margin-left: auto;
+    margin-right: auto;
+
+    .job {
+      p {
+        margin-bottom: 0.25rem;
+      }
+      border-top: 1px solid #F2F2F2;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        height: 12px;
+        align-self: center;
+      }
+    }
+  }
+  //lijst mensen//
+  #people {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .job {
+    border-top: 1px solid #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+
+    p {
+      margin-bottom: 0.25rem;
+    }
+
+    .hero {
+      font-size: 2.5rem;
+    }
+
+    .attribute {
+      font-size: 0.875rem;
+    }
+
+    span {
+      margin-right: 10px;
+    }
+
+    img {
+      align-self: center;
+      margin-right: 30px;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  //lijst jobs
+.jobs{
+  .hero{
+    font-size: 1.25rem;
+  }
+}
+
+  .hero {
+    font-size: 1.7rem;
+  }
+
+  h5 {
+    font-size: 0.75rem;
+  }
+
+  #spotlight {
+    margin-left: auto;
+    margin-right: auto;
+
+    .job {
+      p {
+        margin-bottom: 0.25rem;
+      }
+      border-top: 1px solid #F2F2F2;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      // display: inline-block;
+      justify-content: space-between;
+
+      img {
+        align-self: center;
+      }
+    }
+  }
+  //
+  //lijst mensen//
+  #people {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .job {
+    border-top: 1px solid #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    // display: flex;
+    justify-content: flex-start;
+
+    p {
+      margin-bottom: 0.25rem;
+    }
+
+    .font7 {
+      font-size: 12px;
+    }
+
+    .font8 {
+      font-size: 18px;
+    }
+
+    span {
+      margin-right: 10px;
+    }
+
+    img {
+      height: 64px;
+      align-self: center;
+      margin-right: 10%;
+    }
+  }
+}
