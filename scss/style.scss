@@ -75,6 +75,13 @@ a {
   text-transform: uppercase;
 }
 
+.btn-outline-primary{
+  color: $primary!important;
+
+}
+.btn-light{
+  color:$primary !important;
+}
 .badge-info {
   font-weight: normal;
   color: #FF811A;

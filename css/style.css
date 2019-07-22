@@ -8368,6 +8368,18 @@ a.text-dark:hover, a.text-dark:focus {
   #PhotoList {
     display: none; } }
 
+.navbar-dark .navbar-toggler {
+  border: none; }
+
+.navbar-light .navbar-toggler {
+  border: none; }
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url(../images/menu2.png); }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../images/menu.png); }
+
 .main-nav {
   font-family: "Work Sans"; }
   .main-nav .nav-link {
@@ -8385,7 +8397,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .stacked ul {
   list-style-type: none;
-  padding-left: none; }
+  padding-left: 0px; }
+  .stacked ul li a:hover {
+    color: #FF811A; }
 
 @media (min-width: 992px) {
   .navbar-expand-lg {
@@ -8500,9 +8514,9 @@ header {
       #evenementenSmall div .evenement h2 {
         margin-top: 1.2rem;
         font-size: 1.125rem;
-        margin-bottom: .5rem; }
+        margin-bottom: 0.5rem; }
       #evenementenSmall div .evenement p {
-        font-size: .875rem; }
+        font-size: 0.875rem; }
       #evenementenSmall div .evenement div {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -8616,8 +8630,9 @@ header {
           font-weight: medium; }
         #branches ul li svg {
           border: none;
-          height: 26px;
-          width: 26px;
+          height: 48px;
+          width: 48px;
+          margin-top: -20px;
           margin-right: 25px; }
   .bg-custom {
     background-color: #FF811A;
@@ -8651,7 +8666,7 @@ header {
   #evenementenTitle {
     position: relative;
     padding-top: 140px;
-    top: 0px; }
+    top: 0; }
   #eventContainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -8922,8 +8937,9 @@ header {
   position: relative;
   width: 100%; }
 
-#locatie {
-  margin-top: 10vh; }
+@media (min-width: 768px) {
+  #locatie {
+    margin-top: 10vh; } }
 
 #content2 {
   margin-top: 450px; }
@@ -8985,6 +9001,12 @@ a {
   font-weight: bold;
   border-color: 2px solid white;
   text-transform: uppercase; }
+
+.btn-outline-primary {
+  color: #FF811A !important; }
+
+.btn-light {
+  color: #FF811A !important; }
 
 .badge-info {
   font-weight: normal;

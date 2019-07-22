@@ -23,6 +23,8 @@
   position: relative;
   width: 100%;
 }
-#locatie{
-  margin-top:10vh;
-}
+@media (min-width: 768px) {
+  #locatie{
+    margin-top:10vh;
+  }
+ }
